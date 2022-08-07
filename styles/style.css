@@ -3,6 +3,26 @@
     
 }
 
+
+a {
+    color: #E7332B;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+    color: #eb5850;
+}
+
+.container-fluid {
+    max-width: 1440px !important;
+}
+
+.my-container {
+    max-width: 1240px !important;
+}
+
+
 body{
     margin: 0;
     font-size: 1rem;
@@ -88,4 +108,87 @@ body{
 .btn-red-outline:hover {
     background-color: #E7332B;
     color: #fff;
+}
+
+section .programs{
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.program-content{
+    padding-top: 0 !important;
+}
+
+.program-content .heading{
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    color: #514949;
+    margin-top: 8px;
+    margin-bottom: 64px;
+}
+
+.program-content .motto{
+    font-size: 24px;
+    line-height: 40px;
+    text-align: center;
+    color: #514949;
+    margin-top: 8px;
+    margin-bottom: 64px;
+}
+
+.program-container{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.program-card {
+    width: 100%;
+    background-color: #FFFAFA;
+    padding: 61px 47px 82px 36px;
+    text-align: justify-all;
+}
+
+.program-card-zed {
+    position: relative;
+    z-index: 1;
+}
+
+img.card-bg-svg-1 {
+    width: 100%;
+    position: absolute;
+    left: -120px;
+    top: -75px;
+    z-index: -1;
+}
+
+img.card-bg-svg-2 {
+    width: 90%;
+    position: absolute;
+    right: -120px;
+    top: -75px;
+    z-index: -1;
+}
+
+.program-card img {
+    margin-bottom: 48px;
+}
+
+.program-card p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #514949;
+    opacity: 0.9;
+}
+
+.program-card h3 a {
+    font-size: 16px;
+    line-height: 24px;
+    color: #E7332B;
+    opacity: 0.9;
+}
+
+.row{
+    padding-left: 70px;
+    padding-right: 70px;
 }
