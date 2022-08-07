@@ -1,0 +1,91 @@
+*, ::after, ::before{
+    box-sizing: border-box;
+    
+}
+
+body{
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+}
+
+.container{
+    background-image: url("/images/hero-bg.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 750px;
+    width: 1000px;
+}
+
+.zuri-logo {
+    margin: auto;
+    display: flex;
+    padding-top: 69px;
+    margin-bottom: 69px;
+}
+
+.zuri-logo img {
+    margin: auto;
+}
+
+.hero-section {
+    padding: 10px;
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.hero-section h2 {
+    font-size: 32px;
+    line-height: 48px;
+    text-align: center;
+    font-weight: 800;
+    color: #514949;
+    margin-bottom: 36px;
+}
+
+.hero-section p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #514949;
+    opacity: 0.9;
+}
+
+.btns{
+    margin-top: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.my-btn {
+    padding: 11px 28px;
+    border: 1px solid #E7332B;
+}
+
+.btn-red {
+    background-color: #E7332B;
+    color: #fff;
+    margin-right: 24px;
+}
+
+.btn-red:hover {
+    background-color: #fff;
+    color: #E7332B;
+}
+
+.btn-red-outline {
+    background-color: #fff;
+    color: #E7332B;
+}
+
+.btn-red-outline:hover {
+    background-color: #E7332B;
+    color: #fff;
+}
